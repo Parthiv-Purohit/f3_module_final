@@ -109,7 +109,6 @@ function handleSearchInput(event){
  const searchedWord = localStorage.getItem('valueOfSearch');
  const word = searchedWord.trim().toLowerCase();
  const newData = [];
- console.log("filtering tak ghuse");
  for (let i = 0; i < dataForBody.length; i++) {
      const name = dataForBody[i].name.trim().toLowerCase();
      const symbol = dataForBody[i].symbol.trim().toLowerCase();
